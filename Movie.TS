@@ -1,5 +1,7 @@
 import { Professional } from "./IMDB"
 
+let Actor1 = new Professional("Morgan Freeman", 89, 75, 190, false, "American", 4, "Actor")
+let Actor2 = new Professional("Leonardo Dicaprio", 39, 70, 183, false, "American", 1, "Actor")
 
 export class Movie {
     title: string;
@@ -30,5 +32,6 @@ showDatos(x: Movie){console.log(x)}
 let Film1 = new Movie("Babilon", 2023, "american", "comedy")
 let Film2 = new Movie("El Padrino", 1984, "american", "mafia")
 
-// Film1.showDatos(Film1)
+Film1.showDatos(Film1)
+
 
